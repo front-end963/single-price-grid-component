@@ -27,11 +27,12 @@ body {
 main {
     width: min(300px, 90%);
     margin: 50px;
+    box-shadow: 0px 10px 15px lightgrey;
 }
 
 h1 {
     color: var(--Cyan);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 section {
@@ -45,13 +46,14 @@ main section:nth-child(1) {
 
 main section:nth-child(1) h2:nth-child(2) {
     color: var(--BrightYellow);
-    font-size: 16px;
+    font-size: 1rem;
     margin: 20px 0;
 }
 
 main section:nth-child(1) p:nth-child(3) {
     color: var(--GrayishBlue);
-    font-size: 14px;line-height: 22px;
+    font-size: 0.875rem;
+    line-height: 22px;
 }
 
 div section:nth-child(1) {
@@ -61,7 +63,7 @@ div section:nth-child(1) {
 
 main section:nth-child(1) h2:nth-child(1) {
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 span {
@@ -73,13 +75,13 @@ span {
 
 span h3:nth-child(1) {
     color: white;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 
 span h3:nth-child(2) {
     color: hsla(204, 43%, 93%, 0.5);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 100;
     margin-left: 10px;
 }
@@ -107,14 +109,14 @@ div section:nth-child(2) {
 
 div section:nth-child(2) h2 {
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
 div section:nth-child(2) p {
     color: hsla(204, 43%, 93%, 0.8);
-    font-size: 14px;
+    font-size: 0.875rem;
     padding-right: 60px;
     line-height: 20px;
 }
