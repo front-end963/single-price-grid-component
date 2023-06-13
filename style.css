@@ -27,7 +27,7 @@ body {
 main {
     width: min(300px, 90%);
     margin: 50px;
-    box-shadow: 0px 10px 15px lightgrey;
+    box-shadow: 0 10px 15px lightgrey;
 }
 
 h1 {
